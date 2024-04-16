@@ -395,17 +395,14 @@
     ],
     "thirdSection": [
       {
-        "id": "LiveCollab",
+        "id": "Kindergarten",
         "technologies": [
-          "ts",
-          "html",
-          "scss",
-          "react",
-          "bootstrap",
-          "graphql",
-          "gcp",
-          "ga",
-          "git"
+          "Autocad",
+          "3Ds Max",
+          "Vray",
+          "Lumion",
+          "Photoshop",
+        
         ],
         "logo": "live",
         "title": "Live Collab",
