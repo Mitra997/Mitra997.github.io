@@ -43,7 +43,7 @@ const getToday = () => {
 };
 
 const sections = [
-  { name: "Hackathons", section: content.experiences.firstSection },
+  { name: "Arts", section: content.experiences.firstSection },
   { name: "Experiences", section: content.experiences.secondSection },
   { name: "Projects", section: content.experiences.thirdSection },
 ];
