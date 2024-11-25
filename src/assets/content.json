@@ -1,6 +1,6 @@
 {
   "version": "1713492784",
-  "bio": "I’m <span class='text-blue-500'>Mitra</span>, a project management student with an architectural background. Proficient in 3Ds Max, Autocad, and SketchUp. <br><br> In my spare time, I love learning new software and enjoy painting.",
+  "bio": "I’m <span class='text-red-500'>Mitra</span>, a project manager with an architectural background, proficient in 3Ds Max, AutoCAD, and SketchUp. <br><br> In my spare time, I enjoy learning new software and painting.",
   "logo": "./img/soheil.png",
   "experiences": {
     "firstSection": [
@@ -396,13 +396,7 @@
     "thirdSection": [
       {
         "id": "Kindergarten",
-        "technologies": [
-          "autocad",
-          "3dmax",
-          "vray",
-          "lumion",
-          "photoshop"
-        ],
+        "technologies": ["autocad", "3dmax", "vray", "lumion", "photoshop"],
         "logo": "live",
         "title": "Kindergarten",
         "show": true,
