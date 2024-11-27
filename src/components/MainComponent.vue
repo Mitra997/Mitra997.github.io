@@ -388,8 +388,8 @@ changeImgOpacity();
           </nav>
         </header>
 
-        <div class="relative isolate px-8">
-          <div class="mx-auto max-w-7xl px-8">
+        <div class="relative isolate px-4">
+          <div class="mx-auto max-w-7xl px-4">
             <div class="
                 mx-auto
                 grid
