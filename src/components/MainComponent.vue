@@ -84,7 +84,7 @@ const posts = [
       name: "Michael Foster",
       role: "Co-Founder / CTO",
       href: "#",
-      imageUrl: "",
+      imageUrl: "logos/kindergarten.png",
       videoUrl: "YYTVwKOgv-M",
     },
   },
@@ -381,40 +381,23 @@ changeImgOpacity();
                 </g>
               </svg>
             </div>
-            <div class="flex lg:hidden">
-              <button type="button" class="
-                  -m-2.5
-                  inline-flex
-                  items-center
-                  justify-center
-                  rounded-md
-                  p-2.5
-                  text-gray-700
-                " @click="mobileMenuOpen = true">
-                <span class="sr-only">Open main menu</span>
-                <Bars3Icon class="size-6" aria-hidden="true" />
-              </button>
-            </div>
-            <div class="hidden lg:flex lg:gap-x-12">
-              <a v-for="item in navigation" :key="item.name" :href="item.href"
-                class="text-sm/6 font-semibold text-gray-900">{{ item.name }}</a>
-            </div>
-            <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+            <div class="flex flex-1 justify-end">
               <a class="text-sm/6 font-semibold text-gray-900 cursor-pointer" @click="showMain">Back <span
                   aria-hidden="true">&rarr;</span></a>
             </div>
           </nav>
         </header>
 
-        <div class="relative isolate px-6 lg:px-8">
-          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="relative isolate px-8">
+          <div class="mx-auto max-w-7xl px-8">
             <div class="
                 mx-auto
                 grid
                 max-w-2xl
                 grid-cols-1
                 gap-x-8 gap-y-16
-                sm:mt-16 sm:pt-16
+                mt-16
+                pt-16
                 lg:mx-0 lg:max-w-none lg:grid-cols-3
               ">
               <article v-for="post in posts" :key="post.id" class="
@@ -425,7 +408,7 @@ changeImgOpacity();
                   justify-between
                   bg-white
                   shadow-2xl
-                  sm:rounded-3xl
+                  rounded-3xl
                   p-8
                 ">
                 <div class="flex items-center gap-x-4 text-xs">
@@ -453,13 +436,11 @@ changeImgOpacity();
                     {{ post.description }}
                   </p>
                 </div>
-                <div class="mt-8 flex items-center gap-x-4 h-[150px] w-[300px]">
-                  <div v-if="post.author.videoUrl">
-                    <iframe class="rounded-lg" :src="`https://www.youtube.com/embed/${post.author.videoUrl}`"
-                      title="YouTube video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </div>
+                <div class="mt-8 flex items-center gap-x-4">
+                  <a v-if="post.author.videoUrl" :href="`https://youtu.be/${post.author.videoUrl}`" target="_blank">
+                    <img :src="getImage(post.author.imageUrl)" alt=""
+                      class="aspect-[3/2] size-full rounded-lg object-cover" />
+                  </a>
                   <img v-else :src="getImage(post.author.imageUrl)" alt=""
                     class="aspect-[3/2] size-full rounded-lg object-cover" />
                 </div>
