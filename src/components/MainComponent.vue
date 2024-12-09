@@ -217,7 +217,7 @@ changeImgOpacity();
     <transition name="fade" mode="out-in">
       <div v-if="!showContent" class="h-screen w-screen fixed">
         <div class="h-screen">
-          <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+          <div class="pt-8 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
             <div class="
                 md:flex
                 w-full
@@ -267,8 +267,8 @@ changeImgOpacity();
                     object-center object-cover
                     rounded-full
                     border-solid border-2 border-gray-300
-                    h-[250px]
-                    w-[250px]
+                    h-[275px]
+                    w-[275px]
                     sm:h-[350px] sm:w-[350px]
                   " />
               </div>
