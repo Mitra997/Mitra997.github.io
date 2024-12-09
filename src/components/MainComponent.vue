@@ -263,10 +263,13 @@ changeImgOpacity();
                 </div>
               </div>
               <div class="flex justify-center items-center m-auto mt-8">
-                <img :src="getImage('memory/me.jpg')" alt="emoji" height="350" width="350" class="
+                <img :src="getImage('memory/me.jpg')" alt="emoji" class="
                     object-center object-cover
                     rounded-full
                     border-solid border-2 border-gray-300
+                    h-[275px]
+                    w-[275px]
+                    sm:h-[350px] sm:w-[350px]
                   " />
               </div>
             </div>
