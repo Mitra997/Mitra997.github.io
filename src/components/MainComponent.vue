@@ -1,10 +1,23 @@
 <script setup lang="ts">
 import contentJson from "../assets/content.json";
-import { ref } from "vue";
+import { ref, useTemplateRef, onMounted } from "vue";
 import Popper from "vue3-popper";
 import Markdown from "vue3-markdown-it";
 import { Content, Section } from "../types/content";
 import { ChevronDown } from "lucide-vue-next";
+
+const avatar = useTemplateRef("avatar");
+const footer = useTemplateRef("footer");
+const hideAvatar = ref(false);
+
+onMounted(() => {
+  const avatarPosition = avatar.value?.getBoundingClientRect();
+  const footerPosition = footer.value?.getBoundingClientRect();
+  hideAvatar.value = !(
+    footerPosition?.bottom - footerPosition?.height >
+    avatarPosition?.bottom
+  );
+});
 
 const posts = [
   {
@@ -213,7 +226,7 @@ changeImgOpacity();
 </script>
 
 <template>
-  <div class="h-screen w-screen snap snap-y snap-mandatory font-thin bg-white">
+  <div class="h-screen w-screen font-thin bg-white">
     <transition name="fade" mode="out-in">
       <div v-if="!showContent" class="h-screen w-screen fixed">
         <div class="h-screen">
@@ -263,7 +276,8 @@ changeImgOpacity();
                 </div>
               </div>
               <div class="flex justify-center items-center m-auto sm:mt-8">
-                <img :src="getImage('memory/me.jpg')" alt="emoji" class="
+                <img ref="avatar" :class="hideAvatar ? 'hidden' : ''" :src="getImage('memory/me.jpg')" alt="emoji"
+                  class="
                     object-center object-cover
                     rounded-full
                     border-solid border-2 border-gray-300
@@ -276,7 +290,7 @@ changeImgOpacity();
           </div>
         </div>
         <div class="fixed bottom-0 w-screen">
-          <div class="
+          <div ref="footer" class="
               bg-white
               h-14
               flex
