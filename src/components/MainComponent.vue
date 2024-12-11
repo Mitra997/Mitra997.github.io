@@ -308,7 +308,7 @@ changeImgOpacity();
                   clip-rule="evenodd" />
               </svg>
               to connect with you!
-              <a href="www.linkedin.com/in/mitra-sharifi" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/mitra-sharifi" target="_blank" rel="noopener noreferrer">
                 <svg class="
                     h-5
                     w-5
