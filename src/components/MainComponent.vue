@@ -419,6 +419,7 @@ changeImgOpacity();
               ">
               <article v-for="post in posts" :key="post.id" class="
                   flex
+                  mx-auto
                   max-w-xl
                   flex-col
                   items-start
