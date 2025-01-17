@@ -25,7 +25,7 @@ const posts = [
     title: "Cardiothene",
     href: "#",
     description:
-      "Led the development of a software solution enabling ECG transmission from Apple Watches to doctors for timely feedback, enhancing patient care. Oversaw project planning, team coordination, and successful execution, ensuring adherence to timelines and objectives. Conducted a comprehensive case study post-project to evaluate outcomes and identify opportunities for innovation.",
+      "Led cross-functional efforts to develop software enabling ECG transmission from Apple Watches to physicians, reducing data-sharing time by 80% and improving patient care. Managed project planning, team coordination, and task prioritization using Agile and Jira, ensuring on-time milestone delivery and under-budget completion. Enhanced outcomes through stakeholder communication and a post-project evaluation to drive innovation.",
     date: "Nov 2023 - Nov 2024",
     datetime: "2020-03-16",
     category: { title: "Project Management", href: "#" },
@@ -57,7 +57,7 @@ const posts = [
     title: "Rasam",
     href: "#",
     description:
-      "Collaborated with cross-functional teams to develop project plans aligned with organizational goals, working closely with architects and engineers to integrate innovative design solutions. Managed timelines, milestones, and deliverables using Jira and Agile methodology, streamlining workflows to ensure on-time delivery. Successfully completed a major project in just 5 months—2 months ahead of schedule—through strategic planning and effective coordination.",
+      "Supported the construction of a 10-story high-rise by defining scope, deliverables, and risk strategies, ensuring projects stayed on track. Collaborated with architects and engineers, prepared tender documents, and selected contractors to reduce risks and improve decision-making. Streamlined workflows and utilized tools like Gantt charts to track milestones, achieving efficient planning and timely delivery.",
     date: "Aug 2021 - May 2023",
     datetime: "2020-03-23",
     category: { title: "Project Management", href: "#" },
@@ -73,7 +73,7 @@ const posts = [
     title: "Kayson",
     href: "#",
     description:
-      "Assisted in managing diverse projects by maintaining accurate records and organized files, improving efficiency and stakeholder satisfaction. Regularly communicated with clients, providing updates, addressing concerns, and delivering timely solutions. Contributed to smoother project execution and consistently met deadlines through proactive coordination.",
+      "Managed project documentation for large-scale housing developments, ensuring organization and accuracy to enhance team efficiency. Maintained consistent communication with clients, providing updates, addressing concerns, and delivering timely solutions. Streamlined coordination with stakeholders, ensuring on-time completion and smoother project execution.",
     date: "Mar 2020 - June 2020",
     datetime: "2020-03-23",
     category: { title: "Project Management", href: "#" },
