@@ -58,7 +58,7 @@ const posts = [
     href: "#",
     description:
       "Supported the construction of a 10-story high-rise by defining scope, deliverables, and risk strategies, ensuring projects stayed on track. Collaborated with architects and engineers, prepared tender documents, and selected contractors to reduce risks and improve decision-making. Streamlined workflows and utilized tools like Gantt charts to track milestones, achieving efficient planning and timely delivery.",
-    date: "Aug 2021 - May 2023",
+    date: "May 2022 - May 2023",
     datetime: "2020-03-23",
     category: { title: "Project Management", href: "#" },
     author: {
