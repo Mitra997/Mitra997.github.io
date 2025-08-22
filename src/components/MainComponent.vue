@@ -26,7 +26,7 @@ const posts = [
     href: "#",
     description:
       "Led cross-functional efforts to develop software enabling ECG transmission from Apple Watches to physicians, reducing data-sharing time by 80% and improving patient care. Managed project planning, team coordination, and task prioritization using Agile and Jira, ensuring on-time milestone delivery and under-budget completion. Enhanced outcomes through stakeholder communication and a post-project evaluation to drive innovation.",
-    date: "Nov 2023 - Nov 2024",
+    date: "Jan 2024 - Nov 2024",
     datetime: "2020-03-16",
     category: { title: "Project Management", href: "#" },
     author: {
